@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg?size=626&ext=jpg');
+    background-size: 100% 100%;
+}
+.h{
+    text-align: center;
+}
+.home{
+ margin: 35px 15px 0px 10px;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mai{
+    border-bottom: 2px solid lightblue;
+}
+
+.fotr{
+    margin-top: 4% ;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.wi{
+    width:290px;
+}
+.wid{
+    margin-top: -25px;
+}
+.img{
+    border-radius: 50% ;
+}
+/* .zohaib{
+    font-size: 20px;
+    font-weight: bolder;
+} */
+.hdr{
+ text-align: center;
+ margin-top: 40px;
+ font-size: 40px;
+ font-weight: bolder;
+ color: black;
+ text-shadow: 15px 5px 10px  lightblue;
+
+
+}
+.crd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Card{
+  max-width: 400px;
+  border: 1px solid lightblue; 
+  padding: 10px;
+  margin: 30px 10px 0px 10px;
+  border-radius: 20px ;
+  box-shadow: 2px 2px 2px 0px lightblue;
+  box-sizing: border-box;
+  height: fit-content;
+  
+}
+.imagecr{
+   width: 100%;
+   height: 60%;
+   border-radius: 10px;
+
+}
+.imag{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 0px lightblue;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.discription{
+    text-align: left;
+    margin: 10px;
+
+}
+.bt{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 10px 10px 15px 0px;
 }
